@@ -1,0 +1,6 @@
+# Daniel S. Standage
+# daniel.standage@gmail.com
+# Testing Doxygen for documenting the API of my C library.
+
+gcc -Wall -c -I inc -o DtMyObject.o src/DtMyObject.c 
+gcc -Wall -c -I inc -o DtMyParser.o src/DtMyParser.c
