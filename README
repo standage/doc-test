@@ -2,5 +2,13 @@
 # daniel.standage@gmail.com
 # Testing Doxygen for documenting the API of my C library.
 
+# To make sure the dummy code has no errors
 gcc -Wall -c -I inc -o DtMyObject.o src/DtMyObject.c 
 gcc -Wall -c -I inc -o DtMyParser.o src/DtMyParser.c
+
+# To build the docs
+git checkout gh-pages
+doxygen doxygen.conf
+mv html/* .
+rm -r html/
+
