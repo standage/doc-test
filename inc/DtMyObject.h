@@ -7,6 +7,11 @@
  *
  * The DtMyObject class contains super special data.
  */
+
+/**
+ * @struct DtMyObject
+ * @brief Data structure of the DtMyObject class
+ */
 typedef struct DtMyObject DtMyObject;
 
 /**

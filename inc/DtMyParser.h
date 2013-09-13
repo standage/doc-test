@@ -10,6 +10,11 @@
  *
  * The DtMyParser class is used for parsing DtMyObjects from data files.
  */
+
+/**
+ * @struct DtMyParser
+ * @brief Data structure of the DtMyParser class
+ */
 typedef struct DtMyParser DtMyParser;
 
 /**
